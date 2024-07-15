@@ -1,0 +1,85 @@
+.contact-page {
+    /* border: solid; */
+    height: 570px;
+    scroll-snap-align: start;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-inner {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    justify-content: center;
+    align-items: center;
+    height: 74%;
+    width: 80%;
+    gap: 14px;
+    /* border: solid; */
+}
+
+.contactme {
+    /* border: solid; */
+    height: 100%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(5px);
+    box-shadow: 1px 1px 3px black;
+    gap: 7px;
+    padding: 0px 14px;
+}
+
+input {
+    width: 45%;
+    padding: 2px 5px;
+    height: 25px;
+    border-radius: 5px;
+    border: solid 0.8px;
+
+}
+
+.carousel {
+    border: solid;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.message {
+    width: 100%;
+    height: 30%;
+    padding: 10px;
+    display: flex;
+    justify-content: start;
+    resize: none;
+    border-radius: 10px;
+    border: solid 0.8px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.submit {
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    background-color: #244D2A;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 1.2rem;
+    transform: .3s ease;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.cwm{
+    padding-top: 10px;
+    color: #bc6c25;
+}
+
